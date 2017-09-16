@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyNetPhoneServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\vladn\LOCALS~1\Temp\RSP9B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyNetPhoneServer.pdb" /debug /machine:I386 /out:"../Debug/MyNetPhoneServer.exe" /pdbtype:sept 
+.\Debug\DSocket.obj
+.\Debug\MyNetPhoneServer.obj
+.\Debug\MyNetPhoneServerDlg.obj
+.\Debug\RecordSound.obj
+.\Debug\RequestDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\VideoCapture.obj
+.\Debug\coder.obj
+.\Debug\countbit.obj
+.\Debug\dct.obj
+.\Debug\Global.obj
+.\Debug\huffman.obj
+.\Debug\libr263.obj
+.\Debug\mot_est.obj
+.\Debug\pred.obj
+.\Debug\quant.obj
+.\Debug\rlib.obj
+.\Debug\stream.obj
+.\Debug\convert.obj
+.\Debug\DGlobal.obj
+.\Debug\GetBits.obj
+.\Debug\GetBlk.obj
+.\Debug\GetHdr.obj
+.\Debug\GetPic.obj
+.\Debug\GetVlc.obj
+.\Debug\Idct.obj
+.\Debug\Idctref.obj
+.\Debug\Indices.obj
+.\Debug\Recon.obj
+.\Debug\Sac.obj
+.\Debug\Sactbls.obj
+.\Debug\Tmndec.obj
+.\Debug\YuvToRgb.obj
+.\Debug\MyNetPhoneServer.res
+]
+Creating command line "link.exe @C:\DOCUME~1\vladn\LOCALS~1\Temp\RSP9B.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+MyNetPhoneServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

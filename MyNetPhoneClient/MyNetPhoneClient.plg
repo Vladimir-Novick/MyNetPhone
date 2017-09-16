@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyNetPhoneClient - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\vladn\LOCALS~1\Temp\RSPAF.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/MyNetPhoneClient.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\MyNetPhone\MyNetPhoneClient\ConnectDlg.cpp"
+"F:\MyNetPhone\MyNetPhoneClient\DSocket.cpp"
+"F:\MyNetPhone\MyNetPhoneClient\Mixer.cpp"
+"F:\MyNetPhone\MyNetPhoneClient\MyNetPhoneClient.cpp"
+"F:\MyNetPhone\MyNetPhoneClient\MyNetPhoneClientDlg.cpp"
+"F:\MyNetPhone\MyNetPhoneClient\PlaySound.cpp"
+"F:\MyNetPhone\MyNetPhoneClient\RequestDlg.cpp"
+"F:\MyNetPhone\MyNetPhoneClient\Volume.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\vladn\LOCALS~1\Temp\RSPAF.tmp" 
+Creating temporary file "C:\DOCUME~1\vladn\LOCALS~1\Temp\RSPB0.tmp" with contents
+[
+Vfw32.lib Winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyNetPhoneClient.pdb" /debug /machine:I386 /out:"Debug/MyNetPhoneClient.exe" /pdbtype:sept 
+.\Debug\ConnectDlg.obj
+.\Debug\DSocket.obj
+.\Debug\Mixer.obj
+.\Debug\MyNetPhoneClient.obj
+.\Debug\MyNetPhoneClientDlg.obj
+.\Debug\PlaySound.obj
+.\Debug\RequestDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\Volume.obj
+.\Debug\coder.obj
+.\Debug\countbit.obj
+.\Debug\dct.obj
+.\Debug\Global.obj
+.\Debug\huffman.obj
+.\Debug\libr263.obj
+.\Debug\mot_est.obj
+.\Debug\pred.obj
+.\Debug\quant.obj
+.\Debug\rlib.obj
+.\Debug\stream.obj
+.\Debug\convert.obj
+.\Debug\DGlobal.obj
+.\Debug\GetBits.obj
+.\Debug\GetBlk.obj
+.\Debug\GetHdr.obj
+.\Debug\GetPic.obj
+.\Debug\GetVlc.obj
+.\Debug\Idct.obj
+.\Debug\Idctref.obj
+.\Debug\Indices.obj
+.\Debug\Recon.obj
+.\Debug\Sac.obj
+.\Debug\Sactbls.obj
+.\Debug\Tmndec.obj
+.\Debug\MyNetPhoneClient.res
+]
+Creating command line "link.exe @C:\DOCUME~1\vladn\LOCALS~1\Temp\RSPB0.tmp"
+<h3>Output Window</h3>
+Compiling...
+Skipping... (no relevant changes detected)
+ConnectDlg.cpp
+DSocket.cpp
+Mixer.cpp
+MyNetPhoneClient.cpp
+MyNetPhoneClientDlg.cpp
+PlaySound.cpp
+RequestDlg.cpp
+Volume.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+MyNetPhoneClient.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
